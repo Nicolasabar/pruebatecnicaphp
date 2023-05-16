@@ -1,0 +1,13 @@
+Para ejecutar la aplicacion se necesita de:
+
+PostgresSQL version 14
+PHP version 8 
+Javascript
+
+En mi caso ejecuto la aplicacion desde un servidor local levando con Xammp, en caso de ser necesario descargar xammp.
+
+Para configurar la base de datos en php asegurarse de cambiar los datos de conexion:
+ - User
+ - password
+ - host
+ - bd

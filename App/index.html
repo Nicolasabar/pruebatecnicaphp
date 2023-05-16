@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>
+        Formulario de Votación: 
+    </h1>
+
+    <form action="" id="form-votacion">
+
+        <label for=""> Nombre y Apellido
+            <input type="text" name="last-name">
+        </label>
+
+        <br>
+
+        <label for=""> Alias
+            <input type="text" name="alias">
+        </label>
+        
+        <br>
+
+        <label for=""> Rut
+            <input type="text" name="rut">
+        </label>
+
+        <br>
+
+        <label for=""> Email
+            <input type="email">
+        </label>
+        <br>
+        <label for="region">Región</label>
+        <select name="region" id="regionSelect">
+          <option value=""></option>
+        </select>
+        <br>
+        <label for="comuna">Comuna</label>
+        <select name="comuna" id="comunaSelect">
+          <option value=""></option>
+        </select>
+        <br>
+        <label for="candidato">Candidato</label>
+        <select name="candidato" id="candidatoSelect">
+          <option value=""></option>
+        </select>
+        
+        <br>
+        
+        <label for="">Como se entero de nosotros</label>
+        <label for=""> 
+            <input type="radio" name="entero" value="Web"> Web
+        </label>
+        <label for=""> 
+            <input type="radio" name="entero" value="TV"> TV
+        </label>
+        <label for=""> 
+            <input type="radio" name="entero" value="rEDES Sociales"> Redes Sociales
+        </label>
+        <label for=""> 
+            <input type="radio" name="entero" value="Amigo"> Amigo
+        </label>
+
+        <br>
+
+        <button type="submit">Votar</button>
+
+        <br>
+        <div id="respuesta"></div>
+    </form>
+
+    <SCRIpt src="index.js"></SCRIpt>
+</body>
+</html>
